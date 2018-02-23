@@ -322,7 +322,7 @@ header.contact_masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url('../img/contact.jpg');
-  height: 575px;
+  height: auto;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -340,23 +340,23 @@ header.contact_masthead p {
   font-weight: 300;
 }
 @media (min-width: 768px) {
-  header.index_masthead p {
+  header.contact_masthead p {
     font-size: 1.15rem;
   }
 }
 @media (min-width: 992px) {
-  header.index_masthead {
-    height: 100vh;
-    min-height: 650px;
+  header.contact_masthead {
+    height: 10vh;
+    min-height: 600px;
     padding-top: 0;
     padding-bottom: 0;
   }
-  header.index_masthead h1 {
+  header.contact_masthead h1 {
     font-size: 3rem;
   }
 }
 @media (min-width: 1200px) {
-  header.index_masthead h1 {
+  header.contact_masthead h1 {
     font-size: 4rem;
   }
 }
@@ -365,7 +365,7 @@ header.archives_masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url('../img/archives.jpg');
-  height: 575px;
+  height: auto;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -383,23 +383,23 @@ header.archives_masthead p {
   font-weight: 300;
 }
 @media (min-width: 768px) {
-  header.index_masthead p {
+  header.archives_masthead p {
     font-size: 1.15rem;
   }
 }
 @media (min-width: 992px) {
-  header.index_masthead {
-    height: 100vh;
-    min-height: 650px;
+  header.archives_masthead {
+    height: 10vh;
+    min-height: 600px;
     padding-top: 0;
     padding-bottom: 0;
   }
-  header.index_masthead h1 {
+  header.archives_masthead h1 {
     font-size: 3rem;
   }
 }
 @media (min-width: 1200px) {
-  header.index_masthead h1 {
+  header.archives_masthead h1 {
     font-size: 4rem;
   }
 }
@@ -407,7 +407,7 @@ header.archives_masthead p {
 header.contribute_masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('');
+  background-image: url('../img/contribute.jpg');
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -423,6 +423,27 @@ header.contribute_masthead h1 {
 }
 header.contribute_masthead p {
   font-weight: 300;
+}
+@media (min-width: 768px) {
+  header.contribute_masthead p {
+    font-size: 1.15rem;
+  }
+}
+@media (min-width: 992px) {
+  header.contribute_masthead {
+    height: 10vh;
+    min-height: 600px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.contribute_masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.contribute_masthead h1 {
+    font-size: 4rem;
+  }
 }
 
 .text-primary {
@@ -469,10 +490,18 @@ header.contribute_masthead p {
 }
 .navbar-brand > img {
   height: 100%;
-  padding: 15px;
+  padding: 10px;
   width: auto;
 }
 
-.new-input {
-  width: 400px;
+.input-group-append {
+  width: 1px;
+}
+
+#contact {
+  padding-right: 75px;
+}
+
+.table {
+  color: #fff;
 }
