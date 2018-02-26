@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Vollkorn SC', serif;
+  font-family: 'Source Code Pro', monospace;
 }
 
 hr {
@@ -20,7 +20,7 @@ hr {
 }
 
 hr.light {
-  border-color: #fff;
+  border-color: #fafafa;
 }
 
 a {
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Vollkorn SC', serif;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .bg-primary {
@@ -67,37 +67,37 @@ section {
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #fafafa;
   background: #212529;
   text-shadow: none;
 }
 
 ::selection {
-  color: #fff;
+  color: #fafafa;
   background: #212529;
   text-shadow: none;
 }
 
 img::selection {
-  color: #fff;
+  color: #fafafa;
   background: transparent;
 }
 
 img::-moz-selection {
-  color: #fff;
+  color: #fafafa;
   background: transparent;
 }
 
 body {
   -webkit-tap-highlight-color: #212529;
   background-color: #212529;
-  color: #fff;
+  color: #fafafa;
 }
 
 #mainNav {
   border-bottom: 0px;
   background-color: transparent;
-  font-family: 'Vollkorn SC', serif;
+  font-family: 'Source Code Pro', monospace;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -105,7 +105,7 @@ body {
 #mainNav .navbar-brand {
   font-weight: 500;
   color: #808080;
-  font-family: 'Vollkorn SC', serif;
+  font-family: 'Source Code Pro', monospace;
 }
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
@@ -115,7 +115,7 @@ body {
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: 0.9rem;
   font-weight: 500;
-  color: #fff;
+  color: #fafafa;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -140,14 +140,14 @@ body {
   }
   #mainNav .navbar-brand:focus,
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #fafafa;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #fff;
+    color: #fafafa;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -162,7 +162,7 @@ body {
   }
   #mainNav.navbar-shrink .navbar-brand:focus,
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #fff;
+    color: #fafafa;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -177,7 +177,7 @@ body {
 #mainNavalt {
   border-bottom: 0px;
   background-color: #transparent;
-  font-family: 'Vollkorn SC', serif;
+  font-family: 'Source Code Pro', monospace;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -185,7 +185,7 @@ body {
 #mainNavalt .navbar-brand {
   font-weight: 500;
   color: #808080;
-  font-family: 'Vollkorn SC', serif;
+  font-family: 'Source Code Pro', monospace;
 }
 #mainNavalt .navbar-brand:focus,
 #mainNavalt .navbar-brand:hover {
@@ -195,7 +195,7 @@ body {
 #mainNavalt .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: 0.9rem;
   font-weight: 500;
-  color: #fff;
+  color: #fafafa;
 }
 #mainNavalt .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNavalt .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -220,14 +220,14 @@ body {
   }
   #mainNavalt .navbar-brand:focus,
   #mainNavalt .navbar-brand:hover {
-    color: #fff;
+    color: #fafafa;
   }
   #mainNavalt .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNavalt .navbar-nav > li.nav-item > a.nav-link,
   #mainNavalt .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #fff;
+    color: #fafafa;
   }
   #mainNavalt .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNavalt .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -235,7 +235,7 @@ body {
   }
   #mainNavalt.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
+    background-color: #fafafa;
   }
   #mainNavalt.navbar-shrink .navbar-brand {
     color: #808080;
@@ -294,6 +294,7 @@ header.index_masthead p {
 @media (min-width: 1200px) {
   header.index_masthead h1 {
     font-size: 4rem;
+    font-weight: 200;
   }
 }
 
@@ -453,12 +454,12 @@ header.contribute_masthead p {
 .btn {
   background-color: #808080;
   border-color: #808080;
-  color: #fff;
+  color: #fafafa;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  color: #fff;
+  color: #fafafa;
   background-color: #808080 !important;
 }
 .btn-primary:active,
@@ -477,7 +478,7 @@ header.contribute_masthead p {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  color: #fff;
+  color: #fafafa;
   background-color: #808080 !important;
 }
 .btn-primary:active,
@@ -503,5 +504,5 @@ header.contribute_masthead p {
 }
 
 .table {
-  color: #fff;
+  color: #fafafa;
 }
