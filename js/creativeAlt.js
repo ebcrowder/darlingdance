@@ -22,17 +22,17 @@
 
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
-    target: '#mainNav',
+    target: '#mainNavalt',
     offset: 57
   });
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
+    if ($("#mainNavalt").offset().top > 100) {
+      $("#mainNavalt").addClass("navbar-shrink");
       $('.navbar-brand img').attr('src', 'img/ddlogo-dark.png');
     } else {
-      $("#mainNav").removeClass("navbar-shrink");
+      $("#mainNavalt").removeClass("navbar-shrink");
       $('.navbar-brand img').attr('src', 'img/ddlogo-light.png');
     }
   };
