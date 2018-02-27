@@ -566,9 +566,10 @@ header.events_masthead p {
   padding-right: 75px;
 }
 
-.table td, .table th {
+.table td, .table th, .table tr {
   color: #fafafa;
   border: none;
+  border-top: hidden;
 }
 
 .jumbotron {
