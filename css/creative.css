@@ -258,8 +258,8 @@ header.index_masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url('../img/homepageoption2.jpg');
-  height: auto;
   background-position: center center;
+  height: inherit;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -569,4 +569,8 @@ header.events_masthead p {
 .table td, .table th {
   color: #fafafa;
   border: none;
+}
+
+.jumbotron {
+  background-color: transparent;
 }
