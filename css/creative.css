@@ -37,11 +37,23 @@ table {
   color: rgba(255, 255, 255, 0.7);
 }
 
-h1,
-h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 6vw;
+  },
+h2 {
+  font-size: 6vw;
+  },
 h3,
-h4,
-h5,
+h4 {
+  font-size: 6vw;
+  },
+h5 {
+  font-size: 6vw;
+  },
 h6 {
   font-family: 'Source Code Pro', monospace;
 }
@@ -570,8 +582,18 @@ header.events_masthead p {
   color: #fafafa;
   border: none;
   border-top: hidden;
+  font-size: 1.25vw;
 }
 
 .jumbotron {
   background-color: transparent;
+  margin-top: 100px;
+}
+
+#support {
+  font-size: 1.25vw;
+}
+
+#supportHeading {
+  font-size: 2.5vw;
 }
