@@ -11,6 +11,7 @@ _Index features alternating text via Javascript._
 _Contribute page._
 
 ![alt text](/upcoming.jpg?raw=true "Upcoming")
+
 _Mobile views provided by Bootstrap framework._
 
 ## Built With
