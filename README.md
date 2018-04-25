@@ -1,6 +1,6 @@
 # darlingdance
 website for darlingdance, a postmodern dance company located in Washington, DC. 
-the website was built using Bootstrap 4 and features a minimalist design in accordance 
+the website was built using Bootstrap 4.0 and features a minimalist design in accordance 
 with the works and vision of the company's artistic director, Hayley Cutler. 
 http://darlingdance.com/
 
@@ -16,5 +16,5 @@ _Mobile views provided by Bootstrap framework._
 
 ## Built With
 
-* Bootstrap
+* Bootstrap 4.0
 * HTML, CSS and Javascript
