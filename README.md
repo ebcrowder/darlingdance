@@ -5,7 +5,7 @@ with the works and vision of the company's artistic director, Hayley Cutler.
 http://darlingdance.com/
 
 ![alt text](/index.jpg?raw=true "Index")
-_Index of posts._
+_Index features alternating text via Javascript._
 
 ![alt text](/contribute.jpg?raw=true "Contribute")
 _Contribute page._
